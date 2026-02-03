@@ -6,6 +6,7 @@
 --Randomly সংখ্যা তৈরি করতে ব্যবহার হয় Math.random()। এটি ০ থেকে ১ এর মধ্যে (১ ছাড়া) একটি এলোমেলো (দশমিক) সংখ্যা দেয়।
 
 For Example:
+
     const randomNumber = Math.random();
     console.log(randomNumber) 
 
@@ -18,6 +19,7 @@ Explanation:
     Math.max() একাধিক সংখ্যার মধ্যে থেকে সবচেয়ে বড় সংখ্যা বের করে দেয়।
 
 For Example:
+
     const maxNumber = Math.max(12, 32, 4, 53);
     console.log(maxNumber);
 
@@ -32,6 +34,7 @@ Explanation:
     Math.min() একাধিক সংখ্যার মধ্যে থেকে সবচেয়ে ছোট সংখ্যা বের করে দেয়।
 
 For Example:
+
     const maxNumber = Math.max(12, 32, 4, 53);
     console.log(maxNumber);
 
@@ -46,6 +49,7 @@ Explanation:
     Math.floor() কোনো দশমিক সংখ্যাকে নিচের পূর্ণসংখ্যায় নামিয়ে আনে।
 
 For Example:
+
     const number = Math.floor(5.9);
     console.log(number);
 
@@ -59,6 +63,7 @@ Explanation:
     Math.ceil() যেকোনো দশমিক সংখ্যাকে উপরের পূর্ণসংখ্যায় তুলে নেয়।
 
 For Example:
+
     const number = Math.ceil(5.1);
     console.log(number);
 
@@ -72,6 +77,7 @@ Explanation:
     Math.trunc() কোনো দশমিক সংখ্যা থেকে দশমিকের পরের অংশটুকু বাদ দিয়ে শুধু পূর্ণসংখ্যাটি রাখে। এটি floor বা ceil এর মতো হিসেব করে না, শুধু দশমিক অংশটা কেটে ফেলে।
 
 For Example:
+
     const number = Math.trunc(4.9);
     console.log(number); // আউটপুট: 4
 
@@ -85,6 +91,7 @@ Explanation:
     Math.round() যে কোনো সংখ্যাকে নিকটতম পূর্ণসংখ্যায় round করে। 
 
 For Example:
+
     const number = Math.round(4.6);
     console.log(number);
 
@@ -103,6 +110,7 @@ Explanation:
     Math.abs() যেকোন সংখ্যা কে ধনাত্মক (absolute) সংখ্যায় রুপান্তর করে।
 
 For Example:
+
     const number = Math.abs(-20);
     console.log(number);
 
@@ -118,6 +126,7 @@ Explanation:
     প্রথমটি হলো মূল সংখ্যা, আর দ্বিতীয়টি হলো কত power (ঘাত) দিতে হবে।
 
 For Example:
+
     const number = Math.pow(2, 4);
     console.log(number);
 
@@ -131,6 +140,7 @@ Explanation:
     Math.sqrt() কোনো সংখ্যার square root বের করে।
 
 For Example:
+
     const number = Math.sqrt(36);
     console.log(number);
 
